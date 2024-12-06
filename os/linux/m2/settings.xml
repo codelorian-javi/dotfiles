@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <localRepository>${user.home}/.m2/repository</localRepository>
+  <interactiveMode>true</interactiveMode>
+  <offline>false</offline>  <servers>
+    <server>
+      <id>gymi-repository</id>
+      <username>aws</username>
+      <password>eyJ2ZXIiOjEsImlzdSI6MTczMjIxNjU5OSwiZW5jIjoiQTEyOEdDTSIsInRhZyI6IlNoLTNXZ0ctMXBXU19lZnlPQUJ6OVEiLCJleHAiOjE3MzIyNTk3OTksImFsZyI6IkExMjhHQ01LVyIsIml2IjoiVkZMU2tvZExXZVpJWndIbCJ9.bQe_At8X3u17sQgpbMJHZw.yS9EUGjEQ3b2_fq2.xP6zvv3FEyUlCxkIB59E4C6t1DcpldKXcfuMNZY84ApJoMR2mLXBaeQNMhs1FfbMAW-RpKUTZoVggz_32kirxNzl3OnJTpAXcJEshV21b53CItCibhU2nb8FmJ3b6BLW98yg_dYFJ_LBJnMfDhQlUgdSPwWSsfRNZubJ3wwMenTqvL7s-4koVKnfYsCjVe1yCgk1fn4XD9g7t5sj8J8VprYjbg4EKeeju1jMwBY-iR1ulkQ1up9Hr4qUBqMV0XBxVunnpsrnZuVI3JxUgYBwvvtbRAC-AZbVH5dTbDjAws3eZC3s3nn4Qx-KS1VZQqrsu7SCwOJCln6rkuL6t2cuHUCY8-3aCVr2T4oEYY8i4P5jsHqpKfHGT5Me6GP33HiDRsKkCDo2eSKw0iP2Nxppv0kTs412F2IxD3cXCeCaxL5ZcmWwn17Ncu3MTSjzqGe417qtHP3tcUEP1sJIMMOH4EvwYVcE2nMbBryfulZ2sAKfJ7G1nTxYGRzH33PVZBFcnHOvM7dVm97heITX0F6YhAf5XgeZ0Vo7eMJHxCH7wdRcBeDzmB9EaYCSsBg7DGmIPcnHMHzXheJXICkkWQNU4oqZ7EzHfQ3IObQscHIL29RLKFfWKmp0bQ_fxDMhBV7mOxNOp6bzTaS7qFHquE_gguonUBveJ1fsQ2e4Oj_lkt4OC3-YOOovIKCeISP3BvRfeCoNrW2KbaoXEJaIFy2rOF8pTEeH76wMNJogpWQpr2sC7VPsG1Migbu1TnaN_YRMmmb5cwzh4CM7b0OSsyDt4EDCI-xMANfDEsFFrxAzdU7xcNtTYeAn8Ln7A3dLP3jZpD_0Vpvql1Rfybnr_6mcr4n31s7DzeEGL92EZklNNZug9pLAUz25Ima8OFLnLlegK9d-0C-lGX_6GBOhmf2AhZjcMvpx0QxxsKCz4v40-K0C8VDqKa9bLPS4iLg8aXjwfxgfza5OtBnuqypFyriEPT8hKnGupgZUGZy8_K3DcJH9sKgIZLasQf7PG1lDnbnUyFPjc5hp3VQzmfm30uow_tNAqpAdKkY56w.B_-8zmlErCdpdIQLoILouw
+</password>
+    </server>
+  </servers>
+  <mirrors>
+    <mirror>
+      <id>gymi-repository</id>
+      <url>https://gymi-713881818102.d.codeartifact.eu-west-1.amazonaws.com/maven/backend/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+  <profiles>
+    <profile>
+      <id>arch-amd64</id>
+      <properties>
+        <docker.from.image.platform.architecture>amd64</docker.from.image.platform.architecture>
+        <docker.from.image.platform.os>linux</docker.from.image.platform.os>
+      </properties>
+    </profile>
+  </profiles>
+</settings>

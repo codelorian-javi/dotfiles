@@ -1,0 +1,31 @@
+- clean: ['~']
+
+- defaults:
+    link:
+      create: true
+      force: true
+
+- create:
+    - ~/.hushlogin
+
+- link:
+    ~/.dotly: os/mac/.dotly
+#    ~/Library/Application Support/Code/User/keybindings.json: editors/code/keybindings.json
+#    ~/Library/Application Support/Code/User/settings.json: editors/code/settings.json
+#    ~/Library/Application Support/Code/User/snippets: editors/code/snippets
+#     ~/.npmrc: os/mac/npm/.npmrc
+#    ~/.aws/config: os/mac/aws/config
+#    ~/.aws/credentials: os/mac/aws/credentials
+#    ~/.aws/mfa_credentials: os/mac/aws/mfa_credentials
+#    ~/.kube/config: os/mac/kube/config
+#    ~/.docker/config.json: os/mac/docker/config.json
+#    ~/.docker/daemon.json: os/mac/docker/daemon.json
+    ~/.m2/settings.xml: os/mac/m2/settings.xml
+#    ~/.hammerspoon/init.lua: os/mac/hammerspoon/init.lua
+    ~/bin/bash: /opt/homebrew/bin/bash
+    ~/bin/date: /opt/homebrew/bin/gdate
+    ~/bin/find: /opt/homebrew/bin/gfind
+    ~/bin/make: /opt/homebrew/bin/gmake
+    ~/bin/sed: /opt/homebrew/bin/gsed
+    ~/bin/touch: /opt/homebrew/bin/gtouch
+    ~/bin/zsh: /opt/homebrew/bin/zsh

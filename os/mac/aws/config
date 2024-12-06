@@ -1,0 +1,4 @@
+[gymi]
+region=eu-west-1
+output=json
+mfa_serial=arn:aws:iam::713881818102:mfa/javier.casado
