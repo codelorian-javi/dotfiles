@@ -21,7 +21,7 @@ function recent_dirs() {
 function setup_trinity() {
   export AWS_PROFILE=gymi
   awslogin --profile gymi
-  #aws ecr get-login-password --region eu-west-1 | docker login --username AWS --password-stdin 713881818102.dkr.ecr.eu-west-1.amazonaws.com
+  aws ecr get-login-password --region eu-west-1 | docker login --username AWS --password-stdin 713881818102.dkr.ecr.eu-west-1.amazonaws.com
   export DOCKER_REGISTRY_URL='713881818102.dkr.ecr.eu-west-1.amazonaws.com'
   export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain gymi --domain-owner 713881818102 --region eu-west-1 --query authorizationToken --output text`
 }

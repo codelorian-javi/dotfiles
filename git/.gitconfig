@@ -89,7 +89,7 @@
 	whitespace = fix
 [commit]
 	# gpgSign = true
-	gpgSign = true
+	gpgsign = false
 [tag]
 	# gpgsign = true
 	gpgsign = false

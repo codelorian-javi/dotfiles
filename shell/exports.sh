@@ -25,6 +25,8 @@ fi
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 
 export DOCKER_HOST=unix://$HOME/.rd/docker.sock
+export AWS_PROFILE=gymi
+
 
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
